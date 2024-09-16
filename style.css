@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.head {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px 0px;
+}
+header * {
+  padding: 2px 0px;
+}
+.head h1 {
+  color: aliceblue;
+}
+.head h2 {
+  color: rgb(112, 120, 120);
+}
+.header-ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.header-ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.header-ul li:hover {
+  color: #ffeb3b;
+}
+.about {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px 0;
+  background-color: #fff;
+  min-height: 290px;
+  max-height: 400px;
+  position: relative;
+}
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.about div img {
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  right: 200px;
+  object-fit: cover;
+}
+.list {
+  z-index: 1;
+  text-align: center;
+  width: 200px;
+  height: 180px;
+  background-color: purple;
+  position: absolute;
+  left: 10px;
+  border-radius: 15px;
+}
+.list p {
+  color: #beb3b3;
+}
+.skills-section {
+  border-radius: 5px;
+}
+.skills-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(206, 213, 206);
+  border-radius: 5px;
+  padding: 3px;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.skill {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* جاهز من النت */
+.skill:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.skill:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.skill:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+/* جاهز من النت */
+.projects-section {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.projects-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+  margin: 10px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card.orange {
+  background-color: #ff9800;
+  width: 200px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.project-card.blue {
+  background-color: #2196f3;
+  width: 200px;
+  height: 120px;
+  margin-left: 50px;
+}
+
+.project-card.dark-blue {
+  background-color: #1565c0;
+  height: 100px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.project-card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form {
+  margin-top: 20px;
+  box-shadow: 0 0 10px #333;
+  border-radius: 4px;
+}
+.form-group {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form h1,
+p {
+  padding-left: 20px;
+}
+.form input,
+textarea {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: auto;
+  min-height: 100px;
+}
+/* اخذته من النت */
+.button {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+/* اخذته من النت */
+.footer {
+  margin-top: 20px;
+  background-color: rgb(10, 0, 0);
+  display: flex;
+  padding-top: 10px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer * {
+  color: whitesmoke;
+}
+.footer a:hover {
+  color: yellow;
+}
