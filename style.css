@@ -84,13 +84,17 @@ header * {
   color: #beb3b3;
 }
 .skills-section {
-  border-radius: 5px;
+  border-radius: 4px;
+  background-color: rgb(231, 255, 19);
 }
 .skills-container {
+  background-image: url("./imgs/download\ \(1\).jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: rgb(206, 213, 206);
   border-radius: 5px;
   padding: 3px;
   gap: 7px;
