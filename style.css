@@ -263,3 +263,19 @@ textarea {
 .footer a:hover {
   color: yellow;
 }
+.go-top {
+  position: fixed;
+  bottom: 60px;
+  right: 90px;
+  z-index: 3;
+  font-size: 24px;
+  background-color: #71c8e5;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.go-top:hover {
+  background-color: #555;
+}
