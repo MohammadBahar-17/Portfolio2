@@ -32,12 +32,10 @@ header * {
   color: rgb(112, 120, 120);
 }
 .header-ul {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
+  display: inline-flex;
 }
 .header-ul li {
+  margin: 4px;
   list-style: none;
   font-size: 1.2rem;
   transition: color 0.3s ease;
@@ -87,25 +85,25 @@ header * {
 }
 .skills-section {
   border-radius: 4px;
-  background-color: rgb(231, 255, 19);
-}
-.skills-container {
   background-image: url("./imgs/download\ \(1\).jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
+  height: 120px;
+}
+
+.skills-container {
+  line-height: 70px;
+  height: 60px;
   text-align: center;
-  border-radius: 5px;
-  padding: 3px;
-  gap: 7px;
-  flex-wrap: wrap;
+  margin: 0px 100px;
+  background-color: rgba(193, 16, 16, 0.9);
+  border-radius: 10px;
 }
 .skill {
   background-color: #4caf50;
   color: white;
-  padding: 10px 20px;
+  padding: 10px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
@@ -138,13 +136,6 @@ header * {
   margin: 10px;
 }
 
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
 .project-card {
   border-radius: 10px;
   padding: 20px;
@@ -157,6 +148,7 @@ header * {
 }
 
 .project-card.orange {
+  margin-bottom: 10px;
   background-color: #ff9800;
   width: 200px;
   height: 100px;
@@ -164,6 +156,7 @@ header * {
 }
 
 .project-card.blue {
+  margin-bottom: 10px;
   background-color: #2196f3;
   width: 200px;
   height: 120px;
@@ -187,12 +180,7 @@ header * {
   box-shadow: 0 0 10px #333;
   border-radius: 4px;
 }
-.form-group {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
+
 .form h1,
 p {
   padding-left: 20px;
@@ -256,12 +244,9 @@ textarea {
 .footer {
   margin-top: 20px;
   background-color: rgb(10, 0, 0);
-  display: flex;
+  text-align: center;
   padding-top: 10px;
   height: 30px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
 }
 .footer * {
   color: whitesmoke;
@@ -272,7 +257,7 @@ textarea {
 .go-top {
   position: fixed;
   bottom: 60px;
-  right: 90px;
+  right: 60px;
   z-index: 3;
   font-size: 24px;
   background-color: #71c8e5;
