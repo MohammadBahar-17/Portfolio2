@@ -84,28 +84,31 @@ header * {
   color: #beb3b3;
 }
 .skills-section {
-  border-radius: 4px;
   background-image: url("./imgs/download\ \(1\).jpeg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  height: 120px;
+  padding: 20px;
+  border-radius: 15px;
 }
 
 .skills-container {
-  line-height: 70px;
-  height: 60px;
-  text-align: center;
-  margin: 0px 100px;
-  background-color: rgba(193, 16, 16, 0.9);
-  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 15px;
 }
 .skill {
   background-color: #4caf50;
   color: white;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
   cursor: pointer;
 }
 /* جاهز من النت */
